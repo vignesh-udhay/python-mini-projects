@@ -9,7 +9,6 @@ A web application that intelligently selects and applies the best prompting tech
   - Zero-Shot Prompting: Direct instruction without examples
   - Few-Shot Prompting: Guided by example patterns
   - Chain-of-Thought (CoT): Step-by-step reasoning
-  - Self-Consistency: Multiple reasoning paths with consistency check
   - Tree of Thoughts (ToT): Multiple reasoning paths in a tree structure
   - Meta Prompting: Focus on structural and syntactical aspects
 - Clean and intuitive Gradio interface
@@ -68,19 +67,13 @@ A web application that intelligently selects and applies the best prompting tech
    - Breaks down complex problems
    - Shows intermediate thinking
 
-4. **Self-Consistency**
-
-   - Multiple reasoning paths
-   - Selects most consistent answer
-   - Improves reliability
-
-5. **Tree of Thoughts (ToT)**
+4. **Tree of Thoughts (ToT)**
 
    - Multiple reasoning branches
    - Strategic lookahead
    - Explores different approaches
 
-6. **Meta Prompting**
+5. **Meta Prompting**
    - Focuses on task structure
    - Analyzes input/output types
    - Provides structured solutions
